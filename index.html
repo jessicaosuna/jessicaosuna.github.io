@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <style>
+      table{
+        background-color: pink;
+      }
+      h1 {color:black}
+      span { color: pink }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align:center">Tienda <span>d</span>e  <span>Automóviles</span></h1>
+    <br>
+    <center><label for="cata">Catálogo:</label>
+      <select name="cata" id="cata">
+        <option value="todos">Todas</option>
+        <option value="austero">Austero</option>
+        <option value="compacto">Compacto</option>
+        <option value="deportivo">Deportivo</option>
+        <option value="lujo">De Lujo</option>
+      </select></center>
+      <center><table border="1">
+        <br>
+        <thead>
+           <th>Marca</th>
+            <th>Modelo</th>
+            <th>Tipo</th>
+            <th>Precio</th>
+        </thead>
+        <tbody id="coches"></tbody>
+    </table></center>
+    <script src="script.js"></script>
+  </body>
+</html>
